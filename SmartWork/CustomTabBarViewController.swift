@@ -15,7 +15,8 @@ class CustomTabBarViewController: UITabBarController {
     }
     
     func initTabBar()  {
-        let msgVC = MessageMainViewController()
+        let msgSB = UIStoryboard.init(name: "MessageMainSb", bundle: nil)
+        let msgVC = msgSB.instantiateViewController(withIdentifier: "MessageMainSb") as! MessageMainViewController
         setUpOneChildViewController(title: "消息", imageName: "", SeletedImageName: "", controller: msgVC)
         let workVC = WorkSpaceViewController()
         setUpOneChildViewController(title: "工作台", imageName: "", SeletedImageName: "", controller: workVC)

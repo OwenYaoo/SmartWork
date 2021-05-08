@@ -1,20 +1,24 @@
 PODS:
   - CalendarKit (1.0.6)
+  - DateToolsSwift (5.0.0)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - CalendarKit
+  - DateToolsSwift
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CalendarKit
+    - DateToolsSwift
     - SnapKit
 
 SPEC CHECKSUMS:
   CalendarKit: eb72185fdc61a65107e4edbedb7b6a8f409fb19b
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: b8e0ad0174ac0a48b8ea25e9dc4af393bd1682ac
+PODFILE CHECKSUM: e32137082351985453f24db4f4db20056e054235
 
 COCOAPODS: 1.10.0

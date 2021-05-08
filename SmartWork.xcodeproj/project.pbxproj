@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5808282A2646A2B300055E31 /* TimeChunk+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580828292646A2B300055E31 /* TimeChunk+DateComponents.swift */; };
 		580B4B592646306E00EB5175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B4B582646306E00EB5175 /* SceneDelegate.swift */; };
 		580B4B5C2646377B00EB5175 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B4B5B2646377B00EB5175 /* LoginViewController.swift */; };
 		580B4B5F264638A200EB5175 /* LaunchPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 580B4B5E264638A200EB5175 /* LaunchPage.png */; };
@@ -23,6 +24,9 @@
 		5874E9F126461C6800550AAA /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9F026461C6800550AAA /* ContactListViewController.swift */; };
 		5874E9F626461C7B00550AAA /* WorkSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9F526461C7B00550AAA /* WorkSpaceViewController.swift */; };
 		5874E9FB26461C9500550AAA /* MessageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9FA26461C9500550AAA /* MessageMainViewController.swift */; };
+		58790AAD26467ECF00AB26BA /* MessageMainSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58790AAC26467ECF00AB26BA /* MessageMainSb.storyboard */; };
+		58790AAF26468CB100AB26BA /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58790AAE26468CB100AB26BA /* CalenderViewController.swift */; };
+		58790AB126468CD300AB26BA /* CalenderViewControllerSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58790AB026468CD300AB26BA /* CalenderViewControllerSb.storyboard */; };
 		8A7BBAC42822DF89986AE693 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBDE1DBE7A63D3AE186CCA2 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		2E3CC29E8955BB9FC189D6B7 /* Pods-SmartWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.debug.xcconfig"; path = "Target Support Files/Pods-SmartWork/Pods-SmartWork.debug.xcconfig"; sourceTree = "<group>"; };
+		580828292646A2B300055E31 /* TimeChunk+DateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeChunk+DateComponents.swift"; sourceTree = "<group>"; };
 		580B4B582646306E00EB5175 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		580B4B5B2646377B00EB5175 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		580B4B5E264638A200EB5175 /* LaunchPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchPage.png; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 		5874E9F026461C6800550AAA /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		5874E9F526461C7B00550AAA /* WorkSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSpaceViewController.swift; sourceTree = "<group>"; };
 		5874E9FA26461C9500550AAA /* MessageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainViewController.swift; sourceTree = "<group>"; };
+		58790AAC26467ECF00AB26BA /* MessageMainSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MessageMainSb.storyboard; sourceTree = "<group>"; };
+		58790AAE26468CB100AB26BA /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		58790AB026468CD300AB26BA /* CalenderViewControllerSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalenderViewControllerSb.storyboard; sourceTree = "<group>"; };
 		8DBDE1DBE7A63D3AE186CCA2 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F740DEAF5BE054C1FEE9BD07 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +173,7 @@
 				580B4B582646306E00EB5175 /* SceneDelegate.swift */,
 				5874E9E226461B5B00550AAA /* CustomTabBarViewController.swift */,
 				5874E970264611AC00550AAA /* ViewController.swift */,
+				580828292646A2B300055E31 /* TimeChunk+DateComponents.swift */,
 				5874E972264611AC00550AAA /* Main.storyboard */,
 				5874E975264611B300550AAA /* Assets.xcassets */,
 				5874E977264611B300550AAA /* LaunchScreen.storyboard */,
@@ -195,6 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				5874E9FA26461C9500550AAA /* MessageMainViewController.swift */,
+				58790AAC26467ECF00AB26BA /* MessageMainSb.storyboard */,
+				58790AAE26468CB100AB26BA /* CalenderViewController.swift */,
+				58790AB026468CD300AB26BA /* CalenderViewControllerSb.storyboard */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -338,7 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5874E979264611B300550AAA /* LaunchScreen.storyboard in Resources */,
+				58790AB126468CD300AB26BA /* CalenderViewControllerSb.storyboard in Resources */,
 				580B4B5F264638A200EB5175 /* LaunchPage.png in Resources */,
+				58790AAD26467ECF00AB26BA /* MessageMainSb.storyboard in Resources */,
 				5874E976264611B300550AAA /* Assets.xcassets in Resources */,
 				5874E974264611AC00550AAA /* Main.storyboard in Resources */,
 				580B4B622646495B00EB5175 /* LoginViewControllerSb.storyboard in Resources */,
@@ -408,10 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58790AAF26468CB100AB26BA /* CalenderViewController.swift in Sources */,
 				580B4B5C2646377B00EB5175 /* LoginViewController.swift in Sources */,
 				5874E971264611AC00550AAA /* ViewController.swift in Sources */,
 				5874E96D264611AC00550AAA /* AppDelegate.swift in Sources */,
 				5874E9F626461C7B00550AAA /* WorkSpaceViewController.swift in Sources */,
+				5808282A2646A2B300055E31 /* TimeChunk+DateComponents.swift in Sources */,
 				5874E9FB26461C9500550AAA /* MessageMainViewController.swift in Sources */,
 				5874E9E326461B5B00550AAA /* CustomTabBarViewController.swift in Sources */,
 				5874E9F126461C6800550AAA /* ContactListViewController.swift in Sources */,
