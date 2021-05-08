@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580B4B592646306E00EB5175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B4B582646306E00EB5175 /* SceneDelegate.swift */; };
+		580B4B5C2646377B00EB5175 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580B4B5B2646377B00EB5175 /* LoginViewController.swift */; };
+		580B4B5F264638A200EB5175 /* LaunchPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 580B4B5E264638A200EB5175 /* LaunchPage.png */; };
+		580B4B622646495B00EB5175 /* LoginViewControllerSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580B4B612646495B00EB5175 /* LoginViewControllerSb.storyboard */; };
 		5874E96D264611AC00550AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E96C264611AC00550AAA /* AppDelegate.swift */; };
-		5874E96F264611AC00550AAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E96E264611AC00550AAA /* SceneDelegate.swift */; };
 		5874E971264611AC00550AAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E970264611AC00550AAA /* ViewController.swift */; };
 		5874E974264611AC00550AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5874E972264611AC00550AAA /* Main.storyboard */; };
 		5874E976264611B300550AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5874E975264611B300550AAA /* Assets.xcassets */; };
 		5874E979264611B300550AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5874E977264611B300550AAA /* LaunchScreen.storyboard */; };
 		5874E984264611B400550AAA /* SmartWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E983264611B400550AAA /* SmartWorkTests.swift */; };
 		5874E98F264611B400550AAA /* SmartWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E98E264611B400550AAA /* SmartWorkUITests.swift */; };
+		5874E9E326461B5B00550AAA /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9E226461B5B00550AAA /* CustomTabBarViewController.swift */; };
+		5874E9EC26461C5000550AAA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9EB26461C5000550AAA /* MyViewController.swift */; };
+		5874E9F126461C6800550AAA /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9F026461C6800550AAA /* ContactListViewController.swift */; };
+		5874E9F626461C7B00550AAA /* WorkSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9F526461C7B00550AAA /* WorkSpaceViewController.swift */; };
+		5874E9FB26461C9500550AAA /* MessageMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5874E9FA26461C9500550AAA /* MessageMainViewController.swift */; };
+		8A7BBAC42822DF89986AE693 /* Pods_SmartWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBDE1DBE7A63D3AE186CCA2 /* Pods_SmartWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E3CC29E8955BB9FC189D6B7 /* Pods-SmartWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.debug.xcconfig"; path = "Target Support Files/Pods-SmartWork/Pods-SmartWork.debug.xcconfig"; sourceTree = "<group>"; };
+		580B4B582646306E00EB5175 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		580B4B5B2646377B00EB5175 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		580B4B5E264638A200EB5175 /* LaunchPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchPage.png; sourceTree = "<group>"; };
+		580B4B612646495B00EB5175 /* LoginViewControllerSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewControllerSb.storyboard; sourceTree = "<group>"; };
 		5874E969264611AC00550AAA /* SmartWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5874E96C264611AC00550AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5874E96E264611AC00550AAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5874E970264611AC00550AAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5874E973264611AC00550AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5874E975264611B300550AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		5874E98A264611B400550AAA /* SmartWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5874E98E264611B400550AAA /* SmartWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWorkUITests.swift; sourceTree = "<group>"; };
 		5874E990264611B400550AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5874E9E226461B5B00550AAA /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		5874E9EB26461C5000550AAA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		5874E9F026461C6800550AAA /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		5874E9F526461C7B00550AAA /* WorkSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkSpaceViewController.swift; sourceTree = "<group>"; };
+		5874E9FA26461C9500550AAA /* MessageMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainViewController.swift; sourceTree = "<group>"; };
+		8DBDE1DBE7A63D3AE186CCA2 /* Pods_SmartWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F740DEAF5BE054C1FEE9BD07 /* Pods-SmartWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartWork.release.xcconfig"; path = "Target Support Files/Pods-SmartWork/Pods-SmartWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7BBAC42822DF89986AE693 /* Pods_SmartWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A7A46A7A6BEC7D59C0C17C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DBDE1DBE7A63D3AE186CCA2 /* Pods_SmartWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		580B4B5A2646376000EB5175 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				580B4B5B2646377B00EB5175 /* LoginViewController.swift */,
+				580B4B612646495B00EB5175 /* LoginViewControllerSb.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		580B4B5D2646383D00EB5175 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				580B4B5E264638A200EB5175 /* LaunchPage.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		580B4B6026463E7F00EB5175 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		5874E960264611AC00550AAA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				5874E982264611B400550AAA /* SmartWorkTests */,
 				5874E98D264611B400550AAA /* SmartWorkUITests */,
 				5874E96A264611AC00550AAA /* Products */,
+				AF6EF32E216151531E646D35 /* Pods */,
+				4A7A46A7A6BEC7D59C0C17C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +154,16 @@
 		5874E96B264611AC00550AAA /* SmartWork */ = {
 			isa = PBXGroup;
 			children = (
+				580B4B6026463E7F00EB5175 /* Tools */,
+				580B4B5D2646383D00EB5175 /* Resources */,
+				580B4B5A2646376000EB5175 /* Login */,
+				5874E9EA26461C2100550AAA /* My */,
+				5874E9E926461BE600550AAA /* ContactList */,
+				5874E9E826461B8A00550AAA /* WorkSpace */,
+				5874E9E726461B7100550AAA /* Message */,
 				5874E96C264611AC00550AAA /* AppDelegate.swift */,
-				5874E96E264611AC00550AAA /* SceneDelegate.swift */,
+				580B4B582646306E00EB5175 /* SceneDelegate.swift */,
+				5874E9E226461B5B00550AAA /* CustomTabBarViewController.swift */,
 				5874E970264611AC00550AAA /* ViewController.swift */,
 				5874E972264611AC00550AAA /* Main.storyboard */,
 				5874E975264611B300550AAA /* Assets.xcassets */,
@@ -128,6 +191,47 @@
 			path = SmartWorkUITests;
 			sourceTree = "<group>";
 		};
+		5874E9E726461B7100550AAA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5874E9FA26461C9500550AAA /* MessageMainViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5874E9E826461B8A00550AAA /* WorkSpace */ = {
+			isa = PBXGroup;
+			children = (
+				5874E9F526461C7B00550AAA /* WorkSpaceViewController.swift */,
+			);
+			path = WorkSpace;
+			sourceTree = "<group>";
+		};
+		5874E9E926461BE600550AAA /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				5874E9F026461C6800550AAA /* ContactListViewController.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		5874E9EA26461C2100550AAA /* My */ = {
+			isa = PBXGroup;
+			children = (
+				5874E9EB26461C5000550AAA /* MyViewController.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		AF6EF32E216151531E646D35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3CC29E8955BB9FC189D6B7 /* Pods-SmartWork.debug.xcconfig */,
+				F740DEAF5BE054C1FEE9BD07 /* Pods-SmartWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5874E993264611B400550AAA /* Build configuration list for PBXNativeTarget "SmartWork" */;
 			buildPhases = (
+				0FFC40B5B850CC3E6C81CF7C /* [CP] Check Pods Manifest.lock */,
 				5874E965264611AC00550AAA /* Sources */,
 				5874E966264611AC00550AAA /* Frameworks */,
 				5874E967264611AC00550AAA /* Resources */,
+				F5DBCF9442DBD682C66DC04D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5874E979264611B300550AAA /* LaunchScreen.storyboard in Resources */,
+				580B4B5F264638A200EB5175 /* LaunchPage.png in Resources */,
 				5874E976264611B300550AAA /* Assets.xcassets in Resources */,
 				5874E974264611AC00550AAA /* Main.storyboard in Resources */,
+				580B4B622646495B00EB5175 /* LoginViewControllerSb.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +361,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FFC40B5B850CC3E6C81CF7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DBCF9442DBD682C66DC04D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartWork/Pods-SmartWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartWork/Pods-SmartWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartWork/Pods-SmartWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5874E965264611AC00550AAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580B4B5C2646377B00EB5175 /* LoginViewController.swift in Sources */,
 				5874E971264611AC00550AAA /* ViewController.swift in Sources */,
 				5874E96D264611AC00550AAA /* AppDelegate.swift in Sources */,
-				5874E96F264611AC00550AAA /* SceneDelegate.swift in Sources */,
+				5874E9F626461C7B00550AAA /* WorkSpaceViewController.swift in Sources */,
+				5874E9FB26461C9500550AAA /* MessageMainViewController.swift in Sources */,
+				5874E9E326461B5B00550AAA /* CustomTabBarViewController.swift in Sources */,
+				5874E9F126461C6800550AAA /* ContactListViewController.swift in Sources */,
+				5874E9EC26461C5000550AAA /* MyViewController.swift in Sources */,
+				580B4B592646306E00EB5175 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +589,7 @@
 		};
 		5874E994264611B400550AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3CC29E8955BB9FC189D6B7 /* Pods-SmartWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +608,7 @@
 		};
 		5874E995264611B400550AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F740DEAF5BE054C1FEE9BD07 /* Pods-SmartWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
